@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Watering",
+    "description": "Water your plants 2-3 times a week depending on the season. Avoid overwatering to prevent root rot."
+  },
+  {
+    "id": 2,
+    "title": "Sunlight",
+    "description": "Place indoor plants near windows for indirect sunlight. Some plants prefer low light areas."
+  },
+  {
+    "id": 3,
+    "title": "Fertilizing",
+    "description": "Use natural fertilizer once a month for healthy growth. Avoid excess fertilizer as it may burn the roots."
+  },
+  {
+    "id": 4,
+    "title": "Pruning",
+    "description": "Trim dead leaves and stems regularly to encourage healthy new growth."
+  },
+  {
+    "id": 5,
+    "title": "Repotting",
+    "description": "Repot plants every 1-2 years to provide fresh soil and more space for roots."
+  },
+  {
+    "id": 6,
+    "title": "Humidity",
+    "description": "Maintain moderate humidity for tropical plants. Use a humidifier or mist the leaves occasionally."
+  },
+  {
+    "id": 7,
+    "title": "Pest Control",
+    "description": "Inspect plants regularly for pests like aphids or spider mites and treat with natural solutions if needed."
+  },
+  {
+    "id": 8,
+    "title": "Cleaning Leaves",
+    "description": "Wipe leaves with a damp cloth to remove dust, which improves photosynthesis and keeps plants healthy."
+  },
+  {
+    "id": 9,
+    "title": "Soil Choice",
+    "description": "Use well-draining soil suitable for each plant type to prevent root rot and promote growth."
+  }
+]

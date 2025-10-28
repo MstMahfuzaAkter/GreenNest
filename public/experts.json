@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Green",
+    "role": "Indoor Plants Specialist",
+    "image": "https://randomuser.me/api/portraits/women/65.jpg",
+    "bio": "Alice has 10 years of experience in caring for indoor plants and air-purifying plants."
+  },
+  {
+    "id": 2,
+    "name": "John Leaf",
+    "role": "Succulent Expert",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "bio": "John specializes in succulents and low-maintenance plants, helping urban homes stay green."
+  },
+  {
+    "id": 3,
+    "name": "Sophia Flora",
+    "role": "Air Purifier Plants Guru",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "bio": "Sophia is an expert in plants that improve indoor air quality and overall home ambiance."
+  },
+  {
+    "id": 4,
+    "name": "Michael Roots",
+    "role": "Decorative Plant Specialist",
+    "image": "https://randomuser.me/api/portraits/men/75.jpg",
+    "bio": "Michael helps people style their homes with plants for both aesthetics and wellness."
+  },
+  {
+    "id": 5,
+    "name": "Emma Bloom",
+    "role": "Tropical Plants Expert",
+    "image": "https://randomuser.me/api/portraits/women/55.jpg",
+    "bio": "Emma specializes in tropical plants and teaches people how to maintain humidity-friendly environments."
+  },
+  {
+    "id": 6,
+    "name": "Liam Fern",
+    "role": "Outdoor Garden Consultant",
+    "image": "https://randomuser.me/api/portraits/men/40.jpg",
+    "bio": "Liam has extensive experience in outdoor gardens and landscape plant design."
+  }
+]

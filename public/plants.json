@@ -1,0 +1,98 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "providerName": "UrbanGreen Studio",
+    "image": "https://i.postimg.cc/x8jJPdyB/Snake-Plant-Laurentii-Large-22-36-tall-Plastic-The-Sill.jpg",
+    "description": "Snake Plant is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 2,
+    "plantName": "Peace Lily",
+    "category": "Flowering Plant",
+    "price": 22,
+    "rating": 4.6,
+    "availableStock": 8,
+    "careLevel": "Moderate",
+    "providerName": "Leaf & Bloom Co.",
+    "image": "https://i.postimg.cc/Zn19zLhh/close-up-delicate-flowers.jpg",
+    "description": "Peace Lily is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 3,
+    "plantName": "Spider Plant",
+    "category": "Hanging Plant",
+    "price": 15,
+    "rating": 4.7,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "providerName": "Nature's Touch",
+    "image": "https://i.postimg.cc/jq9vj0sG/Spider-Plant-Chlorophytum-comosum.jpg",
+    "description": "Spider Plant is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 4,
+    "plantName": "ZZ Plant",
+    "category": "Low Light Plant",
+    "price": 25,
+    "rating": 4.9,
+    "availableStock": 9,
+    "careLevel": "Very Easy",
+    "providerName": "Botanic Haven",
+    "image": "https://i.postimg.cc/J4ZgV4b2/ZZ-Plant-Zamioculcas-zamiifolia.jpg",
+    "description": "ZZ Plant is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 5,
+    "plantName": "Aloe Vera",
+    "category": "Succulent",
+    "price": 20,
+    "rating": 4.5,
+    "availableStock": 15,
+    "careLevel": "Easy",
+    "providerName": "Evergreen Supply",
+    "image": "https://i.postimg.cc/xTDxRDWk/Aloe-Vera-For-Indoor-Plants-Ideas.jpg",
+    "description": "Aloe Vera is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 6,
+    "plantName": "Money Plant",
+    "category": "Climbing Plant",
+    "price": 17,
+    "rating": 4.4,
+    "availableStock": 11,
+    "careLevel": "Easy",
+    "providerName": "GreenNest Nursery",
+    "image": "https://i.postimg.cc/d389X3z9/konnani-su-di-potosuno-yute-fangtoosusume-yan-xuan3tsugo-shao-jie-hitohananoto.jpg",
+    "description": "Money Plant is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 7,
+    "plantName": "Areca Palm",
+    "category": "Air Purifier",
+    "price": 30,
+    "rating": 4.7,
+    "availableStock": 7,
+    "careLevel": "Moderate",
+    "providerName": "Palmify Garden",
+    "image": "https://i.postimg.cc/X7LfyR3Z/Areca-Palm.jpg",
+    "description": "Areca Palm is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 8,
+    "plantName": "Pothos",
+    "category": "Trailing Plant",
+    "price": 16,
+    "rating": 4.5,
+    "availableStock": 14,
+    "careLevel": "Easy",
+    "providerName": "Nature Wall",
+    "image": "https://i.postimg.cc/FKLkG8tH/Houseplant-lovers-Watering-Pothos-When-How-Often-And-How-Much-Is-Needed-Facebook.jpg",
+    "description": "Pothos is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  }
+]
