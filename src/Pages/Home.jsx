@@ -50,43 +50,43 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative h-[70vh] w-full">
         <Swiper
-          modules={[Autoplay, Navigation, Pagination]}
-          spaceBetween={0}
-          slidesPerView={1}
-          loop
-          autoplay={{ delay: 4000 }}
-          navigation
-          pagination={{ clickable: true }}
-          className="h-full rounded-lg overflow-hidden"
-        >
-          {plants.slice(0, 3).map((plant) => (
-            <SwiperSlide key={plant.plantId}>
-              <div className="h-full w-full bg-green-50 flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-16">
+  modules={[Autoplay, Navigation, Pagination]}
+  spaceBetween={0}
+  slidesPerView={1}
+  loop
+  autoplay={{ delay: 4000 }}
+  navigation
+  pagination={{ clickable: true }}
+  className="h-full rounded-lg overflow-hidden"
+>
+  {plants.slice(0, 3).map((plant) => (
+    <SwiperSlide key={plant.plantId}>
+      <div className="h-full w-full bg-green-50 flex flex-col md:flex-row items-center justify-center md:justify-between px-4 sm:px-8 md:px-16 py-6">
 
-                {/* Image */}
-                <div className="w-full h-auto rounded-lg overflow-hidden">
-                  <img
-                    src={plant.image}
-                    alt={plant.plantName}
-                    className="w-full h-full object-cover rounded-lg shadow-lg"
-                  />
-                </div>
+        {/* Image */}
+        <div className="w-full md:w-1/2 h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden flex-shrink-0">
+          <img
+            src={plant.image}
+            alt={plant.plantName}
+            className="w-full h-full object-cover rounded-lg shadow-lg"
+          />
+        </div>
 
-                {/* Text */}
-                <div className="w-full md:w-1/2 mt-6 md:mt-0 md:ml-8 flex flex-col justify-center">
-                  <h2 className="text-3xl md:text-6xl font-bold text-green-800 mb-4">
-                    {plant.plantName}
-                  </h2>
-                  <p className="text-gray-700 text-2xl mb-6">
-                    {plant.description}
-                  </p>
+        {/* Text */}
+        <div className="w-full md:w-1/2 mt-6 md:mt-0 md:ml-8 flex flex-col justify-center text-center md:text-left">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-green-800 mb-4">
+            {plant.plantName}
+          </h2>
+          <p className="text-gray-700 text-base sm:text-lg md:text-2xl mb-4 md:mb-6">
+            {plant.description}
+          </p>
+        </div>
 
-                </div>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
 
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
       </section>
 
 
