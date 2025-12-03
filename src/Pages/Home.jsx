@@ -38,7 +38,7 @@ const Home = () => {
 
   if (loading) {
     return (
-      <div className="text-center mt-20 text-xl font-semibold">Loading...</div>
+      <div className="bg-green-50 text-center mt-20 text-xl font-semibold">Loading...</div>
     );
   }
 
@@ -47,80 +47,86 @@ const Home = () => {
   return (
     <div className="space-y-16 px-4 md:px-12 lg:px-24">
 
-
-      {/*  Hero Section */}
-      <section className="relative">
+      {/* Hero Section */}
+      <section className="relative h-[70vh] w-full">
         <Swiper
           modules={[Autoplay, Navigation, Pagination]}
           spaceBetween={0}
           slidesPerView={1}
           loop
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 4000 }}
           navigation
           pagination={{ clickable: true }}
-          className="rounded-lg overflow-hidden"
+          className="h-full rounded-lg overflow-hidden"
         >
-          {plants.map((plant) => (
+          {plants.slice(0, 3).map((plant) => (
             <SwiperSlide key={plant.plantId}>
-              <div
-                className="h-96 md:h-[500px] bg-cover bg-center relative"
-                style={{ backgroundImage: `url(${plant.image})` }}
-              >
-                <div className="absolute bottom-4 left-4 bg-black bg-opacity-40 p-4 rounded">
-                  <h2 className="text-2xl md:text-4xl font-bold text-white">
+              <div className="h-full w-full bg-green-50 flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-16">
+
+                {/* Image */}
+                <div className="w-full h-auto rounded-lg overflow-hidden">
+                  <img
+                    src={plant.image}
+                    alt={plant.plantName}
+                    className="w-full h-full object-cover rounded-lg shadow-lg"
+                  />
+                </div>
+
+                {/* Text */}
+                <div className="w-full md:w-1/2 mt-6 md:mt-0 md:ml-8 flex flex-col justify-center">
+                  <h2 className="text-3xl md:text-6xl font-bold text-green-800 mb-4">
                     {plant.plantName}
                   </h2>
-                  <p className="text-white text-sm md:text-base">
-                    {plant.description.substring(0, 100)}...
+                  <p className="text-gray-700 text-2xl mb-6">
+                    {plant.description}
                   </p>
+
                 </div>
+
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-
       </section>
 
-      {/*Top Rated Indoor Plants */}
+
+      {/* Top Rated Indoor Plants */}
       <section>
         <h2 className="text-3xl font-bold mb-6 text-center">
           Top Rated Indoor Plants
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-6">
-          {plants.map((plant) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {plants.slice(0, 8).map((plant) => (
             <div
               key={plant.plantId}
-              className="border  hover:-translate-2  rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-300"
+              className="rounded-2xl overflow-hidden shadow hover:shadow-lg transition-shadow duration-300"
             >
               <img
                 src={plant.image}
                 alt={plant.plantName}
-                className="w-full h-48 md:h-60 object-cover"
+                className="w-full h-90 object-contain rounded-full mb-4 mt-4"
               />
               <div className="p-4 text-center">
-                <h3 className="font-semibold text-2xl">{plant.plantName}</h3>
-                <p className="text-gray-600">Price: ${plant.price}</p>
-                <p className="text-yellow-500 font-semibold">⭐ {plant.rating}</p>
-                {user ? (
-                  <Link
-                    to={`/plants/${plant.plantId}`}
-                    className="mt-2 w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition-colors inline-block text-center"
-                  >
-                    View Details
-                  </Link>
-                ) : (
-                  <Link
-                    to="/login"
-                    className="mt-2 w-full bg-yellow-500 text-white py-2 rounded hover:bg-yellow-600 transition-colors inline-block text-center"
-                  >
-                    Login to View
-                  </Link>
-                )}
+                <div className="flex justify-between items-center">
+                  <h3 className="text-xl font-semibold">Name:{plant.plantName}</h3>
+                  <p className="text-gray-700 mt-2">Price:${plant.price}</p>
+                </div>
+                <div className="flex justify-between">
+                  <p className="text-yellow-500 font-semibold">Rating:⭐ {plant.rating}</p>
+                  <p className="text-gray-500 mt-1">Available Stock: {plant.availableStock}</p>
+                </div>
+                <Link
+                  to={`/plants/${plant.plantId}`}
+                  className="w-full bg-gradient-to-r from-emerald-500 via-teal-600 to-green-700 hover:from-emerald-600 hover:via-teal-700 hover:to-green-800 text-white font-semibold py-3 rounded-lg transition duration-300 inline-block mt-2"
+                >
+                  View Details
+                </Link>
               </div>
             </div>
           ))}
         </div>
       </section>
+
 
       {/* Plant Care Tips */}
       <section>
@@ -138,7 +144,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/*  Meet Our Green Experts */}
+      {/* Meet Our Green Experts */}
       <section>
         <h2 className="text-3xl font-bold mb-6 text-center">
           Meet Our Green Experts
@@ -162,8 +168,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/*  Eco Decor Ideas Section */}
-      <section className="bg-green-50 py-16 px-6 text-center">
+      {/* Eco Decor Ideas */}
+      <section className=" py-16 px-6 text-center">
         <h2 className="text-4xl font-bold text-green-800 mb-4">
           Eco Decor Ideas
         </h2>
@@ -229,8 +235,8 @@ const Home = () => {
 
       {/* Plant of the Week */}
       {plantOfWeek && (
-        <section className="bg-green-100 p-8 rounded-lg text-center">
-          <h2 className="text-3xl font-bold mb-4"> Plant of the Week</h2>
+        <section className=" p-8 rounded-lg text-center">
+          <h2 className="text-3xl font-bold mb-4">Plant of the Week</h2>
           <div className="max-w-md mx-auto bg-white shadow rounded-lg p-4 flex flex-col items-center">
             <img
               src={plantOfWeek.image}
@@ -242,14 +248,14 @@ const Home = () => {
             {user ? (
               <Link
                 to={`/plants/${plantOfWeek.plantId}`}
-                className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 mt-3"
+                className="w-full bg-gradient-to-r from-emerald-500 via-teal-600 to-green-700 hover:from-emerald-600 hover:via-teal-700 hover:to-green-800 text-white font-semibold py-3 rounded-lg transition duration-300 mt-3 inline-block text-center"
               >
                 View Details
               </Link>
             ) : (
               <Link
                 to="/login"
-                className="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 mt-3"
+                className="w-full bg-gradient-to-r from-emerald-500 via-teal-600 to-green-700 hover:from-emerald-600 hover:via-teal-700 hover:to-green-800 text-white font-semibold py-3 rounded-lg transition duration-300 mt-3 inline-block text-center"
               >
                 Login to View
               </Link>

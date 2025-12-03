@@ -94,5 +94,89 @@
     "providerName": "Nature Wall",
     "image": "https://i.postimg.cc/FKLkG8tH/Houseplant-lovers-Watering-Pothos-When-How-Often-And-How-Much-Is-Needed-Facebook.jpg",
     "description": "Pothos is a beautiful indoor plant known for its unique appearance and easy care requirements. It thrives well in most home environments and helps to purify the air, making your space fresh and lively."
+  },
+  {
+    "plantId": 9,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Foliage Plant",
+    "price": 35,
+    "rating": 4.6,
+    "availableStock": 6,
+    "careLevel": "Moderate",
+    "providerName": "UrbanLeaf",
+    "image": "https://i.ibb.co.com/pj693PHV/Fiddle-Leaf-Fig-For-Indoor-Plants-Ideas.jpg",
+    "description": "Fiddle Leaf Fig is a trendy indoor plant with large green leaves. It requires moderate care and brings a vibrant touch to any room."
+  },
+  {
+    "plantId": 10,
+    "plantName": "Boston Fern",
+    "category": "Hanging Plant",
+    "price": 19,
+    "rating": 4.5,
+    "availableStock": 10,
+    "careLevel": "Moderate",
+    "providerName": "FernWorld",
+    "image": "https://i.ibb.co.com/4gnKFzwx/Boston-Fern-Nephrolepis-exaltata.jpg",
+    "description": "Boston Fern is a lush indoor hanging plant that thrives in moderate light and humidity. It's perfect for adding greenery to your home."
+  },
+  {
+    "plantId": 11,
+    "plantName": "Rubber Plant",
+    "category": "Foliage Plant",
+    "price": 28,
+    "rating": 4.7,
+    "availableStock": 9,
+    "careLevel": "Easy",
+    "providerName": "Leafy Home",
+    "image": "https://i.ibb.co.com/4gmC8VfK/15-Breathtaking-Plants-That-Transform-Your-Home-with-Pure-Air-Bamb-Rise.jpg",
+    "description": "Rubber Plant is an easy-care indoor plant with thick, glossy leaves. It helps improve indoor air quality and adds elegance to your space."
+  },
+  {
+    "plantId": 12,
+    "plantName": "Orchid",
+    "category": "Flowering Plant",
+    "price": 40,
+    "rating": 4.8,
+    "availableStock": 5,
+    "careLevel": "Moderate",
+    "providerName": "BloomHouse",
+    "image": "https://i.ibb.co.com/8DmnhxkT/8-Beautiful-Orchids-That-Bloom-in-Winter.jpg",
+    "description": "Orchid is a delicate flowering plant known for its stunning blooms. It needs moderate care but adds a touch of elegance to your home."
+  },
+  {
+    "plantId": 13,
+    "plantName": "Bamboo Palm",
+    "category": "Air Purifier",
+    "price": 27,
+    "rating": 4.6,
+    "availableStock": 8,
+    "careLevel": "Easy",
+    "providerName": "Palmify Garden",
+    "image": "https://i.ibb.co.com/wFVtvHNb/Buy-Potted-Bamboo-Palm-Indoor-Plant-Bloomscape.jpg",
+    "description": "Bamboo Palm is an attractive indoor plant that helps purify air and adds a tropical feel to your room."
+  },
+  {
+    "plantId": 14,
+    "plantName": "Jade Plant",
+    "category": "Succulent",
+    "price": 23,
+    "rating": 4.5,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "providerName": "Evergreen Supply",
+    "image": "https://i.ibb.co.com/mVVXJYZc/7-Tactics-To-Grow-Jade-Plant-From-Cuttings.jpg",
+    "description": "Jade Plant is a popular succulent known for its thick leaves and low maintenance. It brings good luck and greenery indoors."
+  },
+  {
+    "plantId": 15,
+    "plantName": "Calathea",
+    "category": "Foliage Plant",
+    "price": 26,
+    "rating": 4.6,
+    "availableStock": 7,
+    "careLevel": "Moderate",
+    "providerName": "Nature's Touch",
+    "image": "https://i.ibb.co.com/rR2fJRBF/Calathea-Ornata-For-Indoor-Plants-Ideas.jpg",
+    "description": "Calathea is a striking indoor plant with patterned leaves. It thrives in moderate care conditions and adds a stylish look to your home."
   }
 ]

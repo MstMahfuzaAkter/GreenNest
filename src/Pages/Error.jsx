@@ -15,7 +15,7 @@ const Error = () => {
       </p>
       <Link
         to="/"
-        className="bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transition"
+        className="bg-gradient-to-r from-emerald-500 via-teal-600 to-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transition"
       >
         Go Back Home
       </Link>

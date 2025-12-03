@@ -100,13 +100,13 @@ const PlantDetail = () => {
           <div className="flex justify-between">
             <button
               type="submit"
-              className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
+              className="w-full sm:w-auto bg-gradient-to-r from-emerald-500 via-teal-600 to-green-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
             >
               Book Now
             </button>
             <Link
               to='/plants'
-              className="w-full flex justify-center items-center gap-1.5 sm:w-auto bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
+              className="w-full flex justify-center items-center gap-1.5 sm:w-auto bg-gradient-to-r from-emerald-500 via-teal-600 to-green-700 text-whitefont-semibold py-2 px-4 rounded transition duration-300"
             >
               <FaArrowLeft></FaArrowLeft>Go Back
             </Link>

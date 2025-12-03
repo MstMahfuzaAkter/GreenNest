@@ -80,7 +80,7 @@ const Profile = () => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className={`w-full py-2 rounded text-white font-semibold transition duration-300 ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-green-600 hover:bg-green-700"
+                        className={`w-full py-2 rounded bg-gradient-to-r from-emerald-500 via-teal-600 to-green-700 text-whitefont-semibold transition duration-300 ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-green-600 hover:bg-green-700"
                             }`}
                     >
                         {loading ? "Updating..." : "Update Profile"}
